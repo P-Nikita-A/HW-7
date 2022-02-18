@@ -1,0 +1,90 @@
+.team {
+  background-color: var(--background-color-bottum);
+  background-size: cover;
+}
+
+.team-title {
+  color: var(--link-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  padding-top: 95px;
+}
+.team-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+
+  margin-top: 50px;
+  padding-bottom: 95px;
+}
+.team-list .team-list-item + .team-list-item {
+  margin-left: 30px;
+}
+.personal-info {
+  background-color: var(--full-wight);
+  width: 270px;
+  padding: 30px 32px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-photo {
+  width: 270px;
+  display: block;
+}
+.team-name {
+  color: var(--link-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.position {
+  color: var(--link-contacts-color);
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+}
+.team-contacts {
+  list-style-type: none;
+  display: flex;
+}
+.team-contacts .team-contacts-item + .team-contacts-item {
+  margin-left: 10px;
+}
+.team-contacts-item {
+  border: 14px;
+  margin-top: 16px;
+}
+.team-link {
+  border-radius: 50%;
+  display: block;
+  align-items: center;
+  background-size: cover;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  &:hover,
+  &:focus {
+    background-color: var(--active-link-color);
+    & .team-contacts-icon {
+      fill: var(--full-wight);
+    }
+  }
+}
+.team-contacts-icon {
+  width: 44px;
+  height: 44px;
+  fill: var(--icon-color);
+  padding: 12px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+
