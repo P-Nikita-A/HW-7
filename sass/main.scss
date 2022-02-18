@@ -1,13 +1,14 @@
 @import "./units/variables";
 @import "./units/hidden";
+@import "./units/section";
+@import "./units/container";
 
 @import "./base/reset";
 @import "./base/common";
 
-@import "./components/container";
 @import "./components/btn";
 @import "./components/benefits";
-@import "./components/wdwd";
+@import "./components/activity";
 @import "./components/team";
 @import "./components/clients";
 @import "./components/example";
@@ -16,3 +17,4 @@
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/footer";
+@import "./layout/porfolio";

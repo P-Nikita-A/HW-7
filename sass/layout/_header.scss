@@ -13,47 +13,46 @@
 .logo {
   font-family: "Raleway";
   font-style: normal;
-  font-size: 26px;
-  color: var(--full-black);
+
   text-decoration: none;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-
+  & span {
+    color: var(--first-3-logo-color);
+  }
+}
+.logo-header {
   padding-top: 25px;
   padding-bottom: 25px;
+  font-size: 26px;
+  color: var(--full-black);
 }
-.first-3 {
-  color: var(--first-3-logo-color);
-}
-.menu-nav {
+
+.header-nav {
   list-style-type: none;
 
   display: flex;
   margin-left: 95px;
 }
-.menu-nav .header-item + .header-item {
+.header-nav .header-nav-item + .header-nav-item {
   margin-left: 50px;
 }
 
-.menu-nav .link {
+.header-nav-link {
   display: block;
-  padding-top: 15px;
-  padding-bottom: 15px;
-
   text-decoration: none;
 
-  font-size: 14px;
-  line-height: 16px;
-  font-style: normal;
-}
-.link {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--link-color);
+  font-style: normal;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
   position: relative;
 
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -65,12 +64,12 @@
   }
 }
 
-.header-item {
-  & .active {
+.header-nav-item {
+  & .active-page {
     color: var(--active-link-color);
   }
 }
-.header-item {
+.header-nav-item {
   &.current {
     &::after {
       content: " ";
@@ -85,7 +84,7 @@
   }
 }
 /* ---------------CONTACTS header------------ */
-.contacts {
+.header-contacts {
   display: flex;
   margin-left: auto;
 
@@ -94,9 +93,6 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-}
-.header-item {
-  align-items: center;
 }
 
 .contact-icon {
@@ -109,13 +105,11 @@
   transition-duration: 250ms;
 }
 
-.contacts.contacts .header-item + .header-item {
+.header-contacts .header-contacts-list + .header-contacts-list {
   margin-left: 30px;
 }
-.header-item {
-  align-items: center;
-}
-.link-contacts {
+
+.header-contacts-link {
   color: var(--link-contacts-color);
   text-decoration: none;
   align-items: center;

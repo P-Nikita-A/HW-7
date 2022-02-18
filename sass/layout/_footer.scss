@@ -7,22 +7,15 @@
   align-items: baseline;
 }
 
-.logo-footer {
-  font-family: "Raleway";
-  font-style: normal;
-  font-size: 26px;
+.footer-logo {
   color: var(--full-wight);
-  text-decoration: none;
-  font-weight: bold;
-  line-height: 31px;
-  letter-spacing: 0.03em;
 }
-.footer-list {
+.footer-contacts {
   list-style-type: none;
   display: block;
   margin-top: 20px;
 }
-.footer-list .footer-item + .footer-item {
+.footer-contacts .footer-contacts-item + .footer-contacts-item {
   padding-top: 9px;
 }
 
@@ -37,8 +30,13 @@
 
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--active-link-color);
+  }
 }
-.footer-contacts {
+.contacts-item {
   color: var(--link-contacts-color);
   text-decoration: none;
   font-style: normal;
@@ -49,23 +47,24 @@
 
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+  &:focus,
+  &:hover,
+  &:active {
+    color: var(--active-link-color);
+  }
 }
-.street:hover,
-.street:focus,
-.street:active {
-  color: var(--active-link-color);
-}
-.footer-contacts:hover,
-.footer-contacts:focus,
-.footer-contacts:active {
-  color: var(--active-link-color);
-}
+
 /* --------------footer icons---------- */
-.invite-container {
+.foter-invite {
   align-items: baseline;
   margin-left: 70px;
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--active-link-color);
+  }
 }
-.invite-title {
+.foter-invite-title {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -82,9 +81,7 @@
 .footer-icons-lits-item {
   margin-right: 10px;
 }
-.footer-icons-lits-item:last-child {
-  margin-right: 0px;
-}
+
 .footer-icons-list-item {
   justify-content: center;
   align-items: center;
@@ -99,15 +96,15 @@
   justify-content: center;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+  &:focus,
+  &:hover {
+    background-color: var(--active-link-color);
+  }
 }
 .footer-icon {
   fill: var(--full-wight);
 }
 
-.inv-footer-link:hover,
-.inv-footer-link:focus {
-  background-color: var(--active-link-color);
-}
 /* -----------footer invite spam */
 .footer-invite-section {
   margin-left: 93px;

@@ -33,7 +33,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-photo {
+.team-img {
   width: 270px;
   display: block;
 }
@@ -45,7 +45,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
-.position {
+.teem-position {
   color: var(--link-contacts-color);
   font-size: 16px;
   line-height: 19px;
@@ -87,4 +87,3 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-

@@ -1,11 +1,11 @@
-.wdwd-title {
+.activity-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.wdwd-list {
+.activity-list {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
@@ -13,19 +13,19 @@
   margin-right: -30px;
   padding-bottom: 95px;
 }
-.wdwd-list .wdwd-list-item + .wdwd-list-item {
+.activity-list .activity-list-item + .activity-list-item {
   margin-left: 30px;
 }
-.wdwd-list-item {
+.activity-list-item {
   display: block;
   width: 370px;
   padding-top: 50px;
   position: relative;
 }
-.wdwd-img {
+.activity-img {
   display: block;
 }
-.wdwd-top-text {
+.activity-top-text {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;

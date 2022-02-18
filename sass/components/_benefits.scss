@@ -3,25 +3,14 @@
   padding-bottom: 95px;
 }
 
-.bnf-title {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
 .benefits-list {
   list-style-type: none;
   display: flex;
 }
-.benefits-list .benefits-list-item + .benefits-list-item {
+.benefits-list .benefits-card + .benefits-card {
   margin-left: 30px;
 }
-.benefits-icon-container {
+.benefits-container {
   width: 270px;
   height: 120px;
   background-color: var(--background-color-bottum);
@@ -32,11 +21,11 @@
   margin-bottom: 30px;
 }
 
-.benefits-list-item {
+.benefits-card {
   width: 270px;
 }
 
-.benefits-item-title {
+.benefits-title {
   color: var(--link-color);
   font-weight: bold;
   font-size: 14px;
@@ -44,7 +33,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.benefits-item-text {
+.benefits-text {
   color: var(--link-contacts-color);
   font-weight: normal;
   font-size: 14px;

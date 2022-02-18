@@ -1,20 +1,13 @@
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.porfolio-container {
-  width: 1170px;
-}
-.btn {
+.button {
   list-style-type: none;
   display: flex;
   justify-content: center;
 }
-.btn .btn-list + .btn-list {
+.button .button-list + .button-list {
   margin-left: 8px;
 }
 
-.btn-link {
+.button-link {
   color: var(--link-color);
   background-color: var(--background-color-bottum);
   border-radius: 4px;
