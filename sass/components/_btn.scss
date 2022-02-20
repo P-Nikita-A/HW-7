@@ -3,11 +3,11 @@
   display: flex;
   justify-content: center;
 }
-.button .button-list + .button-list {
+.button .button__list + .button__list {
   margin-left: 8px;
 }
 
-.button-link {
+.button__link {
   color: var(--link-color);
   background-color: var(--background-color-bottum);
   border-radius: 4px;

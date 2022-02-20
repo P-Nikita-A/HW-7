@@ -7,10 +7,10 @@
   list-style-type: none;
   display: flex;
 }
-.benefits-list .benefits-card + .benefits-card {
+.benefits-list .benefits-list__card + .benefits-list__card {
   margin-left: 30px;
 }
-.benefits-container {
+.benefits-list__container {
   width: 270px;
   height: 120px;
   background-color: var(--background-color-bottum);
@@ -21,11 +21,11 @@
   margin-bottom: 30px;
 }
 
-.benefits-card {
+.benefits-list__card {
   width: 270px;
 }
 
-.benefits-title {
+.benefits__title {
   color: var(--link-color);
   font-weight: bold;
   font-size: 14px;
@@ -33,7 +33,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.benefits-text {
+.benefits__text {
   color: var(--link-contacts-color);
   font-weight: normal;
   font-size: 14px;

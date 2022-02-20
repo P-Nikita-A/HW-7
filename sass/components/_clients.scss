@@ -2,7 +2,7 @@
   margin-top: 95px;
   margin-bottom: 95px;
 }
-.clients-title {
+.clients__title {
   color: var(--link-color);
   font-weight: bold;
   font-size: 36px;
@@ -16,14 +16,14 @@
   display: flex;
   list-style: none;
 }
-.clients-list .clietns-list-item + .clietns-list-item {
+.clients-list .clietns-list__item + .clietns-list__item {
   margin-left: 30px;
 }
-.clietns-list-item a {
+.clietns-list__item a {
   display: block;
 }
 
-.clients-icon {
+.clients__icon {
   padding-top: 16px;
   padding-bottom: 16px;
   display: block;
@@ -35,10 +35,10 @@
   transition-duration: 250ms;
 }
 
-.clients-link {
+.clients__link {
   &:hover,
   &:focus {
-    & .clients-icon {
+    & .clients__icon {
       border-color: var(--active-link-color);
       fill: var(--active-link-color);
     }

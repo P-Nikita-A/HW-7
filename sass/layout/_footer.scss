@@ -7,7 +7,7 @@
   align-items: baseline;
 }
 
-.footer-logo {
+.footer__logo {
   color: var(--full-wight);
 }
 .footer-contacts {
@@ -15,11 +15,11 @@
   display: block;
   margin-top: 20px;
 }
-.footer-contacts .footer-contacts-item + .footer-contacts-item {
+.footer-contacts .footer-contacts__item + .footer-contacts__item {
   padding-top: 9px;
 }
 
-.street {
+.footer-contacts__street {
   color: var(--full-wight);
   text-decoration: none;
   font-style: normal;
@@ -36,7 +36,7 @@
     color: var(--active-link-color);
   }
 }
-.contacts-item {
+.footer-contacts__link {
   color: var(--link-contacts-color);
   text-decoration: none;
   font-style: normal;
@@ -64,29 +64,27 @@
     color: var(--active-link-color);
   }
 }
-.foter-invite-title {
+.foter-invite__title {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
 }
-.footer-icons-list {
+.footer-icons__list {
   list-style-type: none;
   margin-top: 20px;
   justify-content: space-between;
 
   display: flex;
 }
-.footer-icons-lits-item {
+.footer-icons__item {
   margin-right: 10px;
-}
-
-.footer-icons-list-item {
   justify-content: center;
   align-items: center;
 }
-.inv-footer-link {
+
+.footer-icons__link {
   width: 44px;
   height: 44px;
   background: rgba(255, 255, 255, 0.1);
@@ -101,28 +99,28 @@
     background-color: var(--active-link-color);
   }
 }
-.footer-icon {
+.footer-icons__icon {
   fill: var(--full-wight);
 }
 
 /* -----------footer invite spam */
-.footer-invite-section {
+.footer-join {
   margin-left: 93px;
 }
-.footer-invite-title {
+.footer-join__title {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
 }
-.footer-invite-btn-lable {
+.footer-socials {
   display: flex;
   align-items: center;
   margin-top: 20px;
 }
 
-.footer-input {
+.footer-socials__mail {
   outline: none;
   width: 360px;
   height: 50px;
@@ -138,7 +136,7 @@
   justify-content: center;
   padding-left: 16px;
 }
-.footer-submit {
+.footer-socials__submit {
   width: 200px;
   height: 50px;
   margin-left: 12px;
@@ -160,6 +158,6 @@
   display: flex;
   letter-spacing: 0.06em;
 }
-.send-sing {
+.footer-socials__icon {
   margin-left: 10px;
 }
